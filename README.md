@@ -5,4 +5,4 @@
 - Dopo ogni modifica al appsettings.json occorre riavviare il servizio (viene riavviato il container dell'applicazione)
 - Per visualizzare i log via powershell:
 	+ Eseguire "Add-AzureAccount" per registrare interattivamente un account azure
-	+ Esegure "Get-AzureWebSiteLog -Name <nome-applicazione> -Tail" per visualizzarli in tempo reale (con il supporto dei codici colore console)
+	+ Esegure "Get-AzureWebSiteLog -Name "nome-applicazione" -Tail" per visualizzarli in tempo reale (con il supporto dei codici colore console)
